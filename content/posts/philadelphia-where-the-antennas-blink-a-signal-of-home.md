@@ -1,10 +1,10 @@
 ---
 categories: 
-- North America
 - City Memory
 tags:
 - Philadelphia
 - Pennsylvania
+- North America
 - City Memory
 date: '2025-04-18T00:53:13Z'
 title: 'Where the Antennas Blink: A Signal of Home'

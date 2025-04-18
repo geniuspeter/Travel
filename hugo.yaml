@@ -7,7 +7,35 @@ caches:
   images:
     dir: :cacheDir/images
 
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+    menu:
+      main:
+        - name: Search
+          url: search/
+          weight: 5
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: Categories
+          url: categories/
+          weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 params:
+  author: Peter Jiang
+  description: "Wander, Remember, Share - A travel blog by Peter Jiang"
+
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
@@ -21,3 +49,13 @@ params:
       url: "https://www.peterjiang.me"
     - name: instagram
       url: "https://www.instagram.com/geniuspeter"
+  
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
