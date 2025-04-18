@@ -1,6 +1,6 @@
-baseURL: https://example.org/
+baseURL: https://travel.peterjiang.me/
 languageCode: en-us
-title: My New Hugo Site
+title: Wander, Remember, Share
 theme: ["PaperMod"]
 
 caches:
@@ -11,8 +11,13 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
-
+    Content: |
+      I’ve been to a lot of places and picked up plenty of stories along the way.  
+      Some memories still make me laugh, others just make me think.  
+      I’m sharing a few here — maybe they’ll inspire you, or just keep you company.  
+      Let’s see where these stories take us next.
   socialIcons:
-    - name: github
-      url: "https://github.com/geniuspeter"
+    - name: other
+      url: "https://www.peterjiang.me"
+    - name: instagram
+      url: "https://www.instagram.com/geniuspeter"
