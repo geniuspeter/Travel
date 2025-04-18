@@ -3,6 +3,14 @@ languageCode: en-us
 title: Wander, Remember, Share
 theme: ["PaperMod"]
 
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
 caches:
   images:
     dir: :cacheDir/images
@@ -33,6 +41,7 @@ outputs:
     - JSON
 
 params:
+  # env: production
   author: Peter Jiang
   description: "Wander, Remember, Share - A travel blog by Peter Jiang"
 
