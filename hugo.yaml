@@ -41,7 +41,7 @@ outputs:
     - JSON
 
 params:
-  # env: production
+  env: production
   author: Peter Jiang
   description: "Wander, Remember, Share - A travel blog by Peter Jiang"
 
